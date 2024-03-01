@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imgwebpage</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #333;
+        }
+
+        #gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+        }
+
+        nav{
+            font-size: larger;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        #menu {
+            list-style-type: none;
+            padding: 20%;
+        }
+
+
+        #menu li {
+            margin-bottom: 10px;
+        }
+    </style>  
+</head>
+<body>
+<header><h1>MY WEBSITE</h1></header>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#menu">Menu</a>
+</nav>
+
+<section id="home">
+    <h2>Home</h2>
+    <p>Welcome to my webpage <br>
+    Thanks for visiting! <br>
+  be sure to stick about and look around!</p>
+  <img src="tech.jpg" alt="tech image">
+</section>
+
+<section id="gallery">
+    <h2>Gallery</h2>
+    <div id="gallery">
+        <a href="https://example.com/nature1" target="_blank">
+            <img src="nature.jpeg" alt="nature image a">
+        </a>
+        <a href="https://example.com/nature2" target="_blank">
+            <img src="natureb.jpeg" alt="nature image b">
+        </a>
+        <a href="https://example.com/nature3" target="_blank">
+            <img src="naturec.jpeg" alt="nature image c">
+        </a>
+        <a href="https://example.com/nature3" target="_blank">
+            <img src="natured.jpeg" alt="nature image c">
+        </a>
+    </div>
+</section>
+
+<section id="menu">
+    <h2>Menu</h2>
+    <ul>
+        <li><a href="https://example.com/cake" target="_blank"><img src="cake.jpeg" alt="Cake"> Cake</a></li>
+        <li><a href="https://example.com/lasagna" target="_blank"><img src="lasagna.jpeg" alt="Lasagna"> Lasagna</a></li>
+        <li><a href="https://example.com/chicken" target="_blank"><img src="chicken.jpeg" alt="Chicken"> Chicken</a></li>
+    </ul>
+</section>
+</body>
+</html>
+
+
+
